@@ -77,17 +77,17 @@ export default function Home() {
               Com foco em ReactJS, mas também com mente para o Designer UX/UI
             </p>         */}
             <div className="text-3xl flex justify-center gap-10 py-3 dark:text-[#9e4ff0] ">
-            <a href="https://linkedin.com/in/gabrieln96" target="_blank"> <AiFillLinkedin className="text-[#551498] hover:text-[#9e4ff0]"/> 
+            <a href="https://linkedin.com/in/gabrieln96" target="_blank" rel="noreferrer" > <AiFillLinkedin className="text-[#551498] hover:text-[#9e4ff0]"/> 
             </a>
-            <a href="https://github.com/gabrieln96" target="_blank">         <AiFillGithub className="text-[#551498] hover:text-[#9e4ff0]"/>
+            <a href="https://github.com/gabrieln96" target="_blank" rel="noreferrer">         <AiFillGithub className="text-[#551498] hover:text-[#9e4ff0]"/>
             </a>
-            <a href="https://dribbble.com/gabrihell" target="_blank">
+            <a href="https://dribbble.com/gabrihell" target="_blank" rel="noreferrer">
             <AiFillDribbbleCircle className="text-[#551498] hover:text-[#9e4ff0]"/>
             </a>
             </div>
             </div>
             <div className=" bg-gradient-to-b from-[#551498] rounded-full w-80 h-80 relative overflow-hidden md:h-96 md:w-96">
-              <Image src={deved} layout="fill" objectFit="cover" />
+              <Image src={deved} layout="fill" alt="/" objectFit="cover" />
             </div>
           </div>
             <div className="ml-auto mr-auto border max-w-5xl mt-8  dark:opacity-40  ">
@@ -104,7 +104,7 @@ export default function Home() {
             </div> */}
           <div className=" mt-12 mx-72 grid grid-cols-3 place-items-center">
             <div className="rounded-large w-80 h-80 rotate-12 overflow-hidden hover:rotate-0 h-90 w-90 ">
-            <Image src={me} layout="fill" objectFit="cover" />
+            <Image src={me} layout="fill" alt="/" objectFit="cover" />
             </div>
               <div className="grid gap-8 dark:text-gray-200">
                 <div className=" grid justify-items-center border-none rounded-md p-4  text-gray-200 bg-[#551498] hover:bg-[#9e4ff0]">
@@ -325,36 +325,36 @@ export default function Home() {
              <div className="mt-12 mx-64 grid grid-cols-3 gap-4 place-items-center">
               <div className=" rounded-2xl text-gray-200 bg-[#551498] hover:bg-[#9e4ff0] " >
               <div className="flex justify-center p-6 ">
-              <Image className="border rounded-md" src={port1} objectFit="cover" />
+              <Image className="border rounded-md" src={port1} alt="/" objectFit="cover" />
               </div>
                 <h1 className="flex text-center text-xl font-bold">
                   Photograpys - Compartilhe suas experiências!
                 </h1>
                 <div className="flex justify-evenly mt-2 mb-4">
-                  <a className="border rounded-md py-2 px-5 text-xl font-semi-bold hover:bg-white hover:text-gray-900" href="https://github.com/gabrieln96/photograpys" target="_blank"> Github</a>
-                  <a className="border rounded-md py-2 px-5 text-xl font-semi-bold hover:bg-white hover:text-gray-900" href="https://photograpys.web.app/" target="_blank">Demo</a>
+                  <a className="border rounded-md py-2 px-5 text-xl font-semi-bold hover:bg-white hover:text-gray-900" href="https://github.com/gabrieln96/photograpys" target="_blank" rel="noreferrer"> Github</a>
+                  <a className="border rounded-md py-2 px-5 text-xl font-semi-bold hover:bg-white hover:text-gray-900" href="https://photograpys.web.app/" target="_blank" rel="noreferrer">Demo</a>
                   </div>
               </div>
               <div className=" rounded-2xl text-gray-200 bg-[#551498] hover:bg-[#9e4ff0]" >
               <div className="flex justify-center p-6 ">
-              <Image className="border rounded-md" src={port2} objectFit="cover" />
+              <Image className="border rounded-md" src={port2} alt="/" objectFit="cover" />
               </div>
                 <h1 className="grid grid-rows-2 place-items-center text-xl font-bold">
                   Git Finder
                 </h1>
                 <div className="flex justify-evenly mt-2 mb-4">
-                  <a className="border rounded-md py-2 px-5 text-xl font-semi-bold hover:bg-white hover:text-gray-900" href="https://github.com/gabrieln96/git-finder" target="_blank"> Github</a>
+                  <a className="border rounded-md py-2 px-5 text-xl font-semi-bold hover:bg-white hover:text-gray-900" href="https://github.com/gabrieln96/git-finder" target="_blank" rel="noreferrer"> Github</a>
                   <a className="border rounded-md py-2 px-5 text-xl font-semi-bold hover:bg-white hover:text-gray-900" href="">Demo</a>
                   </div>
               </div>  <div className=" rounded-2xl text-gray-200 bg-[#551498] hover:bg-[#9e4ff0] " >
               <div className="flex justify-center p-6 ">
-              <Image className="border rounded-md" src={port3} objectFit="cover" />
+              <Image className="border rounded-md" src={port3} alt="/" objectFit="cover" />
               </div>
                 <h1 className="grid grid-rows-2 place-items-center text-xl font-bold">
                   Form MultiStep
                 </h1>
                 <div className="flex justify-evenly mt-2 mb-4">
-                  <a className="border rounded-md py-2 px-5 text-xl font-semi-bold hover:bg-white hover:text-gray-900" href="http://github.com" target="_blank"> Github</a>
+                  <a className="border rounded-md py-2 px-5 text-xl font-semi-bold hover:bg-white hover:text-gray-900" href="http://github.com" target="_blank" rel="noreferrer"> Github</a>
                   <a className="border rounded-md py-2 px-5 text-xl font-semi-bold hover:bg-white hover:text-gray-900" href="">Demo</a>
                   </div>
               </div>  
